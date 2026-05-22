@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-Dark-blue: #0f172a;
+    --color-Light-blue: #3b82f6; 
+    --color-Blue-shade: #152032; 
+    --color-white-shade: #f6f6f6;
+
+}
+
+.navlink-active {
+    @apply text-Light-blue
+}
